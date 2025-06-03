@@ -38,3 +38,9 @@ class budi : public pekerja, public pelajar{
         cout << "budi dibuat\n" << endl;
     }
 };
+
+int main(){
+    budi b(12);
+    
+    return 0;
+}
