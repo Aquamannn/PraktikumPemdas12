@@ -1,4 +1,4 @@
-#include <isotream>
+#include <iostream>
 using namespace std;
 
 class orang{
@@ -41,6 +41,6 @@ class budi : public pekerja, public pelajar{
 
 int main(){
     budi b(12);
-    
+
     return 0;
 }
