@@ -17,3 +17,9 @@ class AbstraksiKlas{
     }
 };
 
+int main() {
+    AbstraksiKlas ak;
+    ak.setXY("Padang", "Rendang");
+    ak.tampilkan();
+    return 0;
+}
