@@ -3,14 +3,14 @@ using namespace std;
 
 class baseClass {
     public:
-    virtual void perkenalan(){
+    virtual void perkenalan() final {
         cout << "Halo, saya Function dari base class";
     }
 };
 
 class drivedClass : public baseClass {
     public:
-    void perkenalan(){
+    void perkenalan1(){
         cout << "Halo, saya Function dari drived class";
     }
 
@@ -18,7 +18,7 @@ class drivedClass : public baseClass {
 
 int main(){
     drivedClass a;
-    a.perkenalan();
+    a.perkenalan1();
 
     return 0;
 }
